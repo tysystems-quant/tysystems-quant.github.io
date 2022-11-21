@@ -1,0 +1,31 @@
+# reference : https://github.com/just-the-docs/just-the-docs/releases/tag/v0.4.0.rc3
+# theme: just-the-docs # static setup for just-the-docs theme
+remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3 # for github-pages deployment
+
+title: TYS # Main title holds all documents
+description: Documents using "Just the Docs" Jekyll Theme
+
+url: https://tysystems-quant.github.io
+
+aux_links: # right-up side button link name and value, comment it NOT to use
+  # My Project Repo: https://github.com/who0joe/who0joe.github.io
+  Go to Americano  : https://just-the-docs.github.io/just-the-docs/
+
+aux_links_new_tab: true
+
+
+color_scheme: tys
+
+# # External navigation links
+# nav_external_links:
+#   - title: Configuration and Customizing Guide
+#     url: https://just-the-docs.github.io/just-the-docs/
+
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+plugins:
+  - jekyll-remote-theme
+
